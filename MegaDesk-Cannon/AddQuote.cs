@@ -81,11 +81,18 @@ namespace MegaDesk_Cannon
 
             if (depthNumericUpDown.Value < Desk.MinDepth || depthNumericUpDown.Value > Desk.MaxDepth || depthNumericUpDown.Value % 1 != 0)
             {
+                // Visual Queue To Location Error Area
+                depthNumericUpDown.BackColor = Color.LightCoral;
                 // Show an error message box
                 MessageBox.Show("Please enter a valid integer value between 12 and 48 for depth.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 // Set focus to the control to allow correction
                 depthNumericUpDown.Focus();
+            }
+            else
+            {
+                // Reset the color when there is no error
+                depthNumericUpDown.BackColor = SystemColors.Window;
             }
         }
 

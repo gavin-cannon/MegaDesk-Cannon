@@ -211,7 +211,7 @@
             this.Controls.Add(this.FullNameLabel);
             this.Controls.Add(this.FullName);
             this.Name = "AddQuote";
-            this.Text = "Add Quote";
+            this.Text = "Add Quote | MegaDesk";
             this.Load += new System.EventHandler(this.AddQuote_Load);
             ((System.ComponentModel.ISupportInitialize)(this.WidthNumberUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DepthNumberUpDown)).EndInit();

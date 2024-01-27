@@ -48,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BackToMainMenu);
             this.Name = "ViewAllQuotes";
-            this.Text = "Form1";
+            this.Text = "View All Quotes | MegaDesk";
             this.ResumeLayout(false);
 
         }

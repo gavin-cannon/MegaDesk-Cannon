@@ -59,7 +59,7 @@
             this.Controls.Add(this.Quote);
             this.Controls.Add(this.BackToMainMenu);
             this.Name = "DisplayQuote";
-            this.Text = "Form1";
+            this.Text = "Quote Display | MegaDesk";
             this.ResumeLayout(false);
             this.PerformLayout();
 

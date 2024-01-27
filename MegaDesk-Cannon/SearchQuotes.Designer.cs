@@ -41,14 +41,14 @@
             this.BackToMainMenu.UseVisualStyleBackColor = true;
             this.BackToMainMenu.Click += new System.EventHandler(this.BackToMainMenu_Click);
             // 
-            // SearchQuote
+            // SearchQuotes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BackToMainMenu);
-            this.Name = "SearchQuote";
-            this.Text = "Form1";
+            this.Name = "SearchQuotes";
+            this.Text = "Search Quotes | MegaDesk";
             this.ResumeLayout(false);
 
         }
